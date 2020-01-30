@@ -23,8 +23,8 @@ def makepicture(chars,lines,text,soundname,fontsize):
     img.save(filename + ".jpg")
     makesound(filename+".jpg",soundname)
 
-textfile = input("File : ")
-soundname = input("Output Name : ")
+textfile = input("Text File  : ")
+soundname = input("Output FileName : ")
 
 fontsize = input("Font Size (default -> 15) : ")
 if fontsize == "":
