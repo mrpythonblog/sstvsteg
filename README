@@ -1,0 +1,11 @@
+# sstvsteg
+convert text to sstv sounds. it can appropriate for steganography.
+
+sstv sounds are very cool . this script at first get a text from uesr . then convert text to a picture with blue background . 
+and convert that picture to sstv sounds using pysstv tool .
+
+after making sstv sound with .wav format , you can decrypt or convert sstv sound to text picture again . how ?
+you can install a sstv scanner application on your phone and .........
+
+
+
