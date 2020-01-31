@@ -13,9 +13,9 @@ def makesound(file,name):
 
 
 def makepicture(chars,lines,text,soundname,fontsize):
-    cols = (((chars+2) * 8) + 320)* int(fontsize * 2)
-    rows = ((((lines+2) * 8) * 2) + 256) * int(fontsize * 2)
-    img = Image.new('RGB',(cols,rows),color = (73,109,137))
+    cols = (((chars+2) * 8) + 320)
+    rows = ((((lines+2) * 8) * 2) + 256) 
+    img = Image.new('RGB',(cols,rows),color = (0,0,0))
     fnt = ImageFont.truetype("Hack-Bold.ttf",fontsize)
     d = ImageDraw.Draw(img)
     d.text((10,10),text,font=fnt,fill=(255,255,0))
